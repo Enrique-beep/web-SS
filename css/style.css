@@ -1,0 +1,226 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(253, 114, 0);
+  font-weight: 600;
+  background-color: rgb(5, 105, 255);
+  border-radius: 10px;
+}
+
+.block {
+  padding: 5px;
+  margin: 5px;
+  background-color: tomato;
+  border: 1px solid #000;
+}
+
+.line {
+  padding: 5px;
+  margin: 5px;
+  background-color: steelblue;
+  border: 1px solid #000;
+}
+
+.btn {
+  padding: 7px;
+  border: none;
+  width: 78px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.enable {
+  background: tomato;
+  cursor: pointer;
+}
+
+.disable {
+  background: tomato;
+  opacity: .5;
+  user-select: none;
+}
+
+.enable:hover {
+  background: rgb(243, 46, 11);
+}
+
+.d-block {
+  display: block;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #000;
+}
+
+.d-line {
+  display: inline;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #000;
+}
+
+/* Position */
+.static {
+  position: static;
+  border: 3px solid #73ad;
+}
+
+.relative {
+  position: relative;
+  border: 3px solid #73ad;
+  left: 30px;
+  margin-top: 15px;
+}
+
+.fixed {
+  position: fixed;
+  border: 3px solid #73ad;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+}
+
+.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73ad;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  margin-top: 15px;
+  border: 3px solid #73ad;
+  background: green;
+}
+
+/* Overflow */
+
+.visible {
+  background: #cccc;
+  width: 200px;
+  height: 50px;
+  border: 1px solid black;
+  overflow: visible;
+}
+
+.hidden {
+  background: #cccc;
+  width: 200px;
+  height: 50px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.scroll {
+  background: #cccc;
+  width: 200px;
+  height: 50px;
+  border: 1px solid black;
+  overflow: scroll;
+}
+
+.auto {
+  background: #cccc;
+  width: 200px;
+  height: 50px;
+  border: 1px solid black;
+  overflow: auto;
+}
+
+.mixto {
+  background: #cccc;
+  width: 200px;
+  height: 50px;
+  border: 1px solid black;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+/* Float */
+.img {
+  float: right;
+}
+
+/* Gradientes */
+.grad1 {
+  height: 200px;
+  background-image: linear-gradient(to right, red,yellow);
+  /* background-image: linear-gradient(red,yellow,green); */
+}
+
+.grad2 {
+  height: 150px;
+  width: 200px;
+  background-image: radial-gradient(circle,red,yellow,black);
+}
+
+/* Sombras */
+.shadow1 {
+  width: 300px;
+  height: 100px;
+  padding: 15px;
+  background-color: yellow;
+  box-shadow: 5px 10px black;
+}
+
+.shadow2 {
+  width: 300px;
+  height: 100px;
+  padding: 15px;
+  background-color: yellow;
+  box-shadow: 5px 10px gray;
+  margin-top: 20px;
+}
+
+.shadow3 {
+  width: 300px;
+  height: 100px;
+  padding: 15px;
+  background-color: yellow;
+  box-shadow: 10px 10px 5px gray;
+  margin-top: 20px;
+}
+
+/* Cards */
+.card {
+  width: 250px;
+  text-align: center;
+  font-family: sans-serif;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  display: inline-block;
+  margin-left: 60px;
+  cursor: pointer;
+  transition: transform .5s;
+}
+
+.card:hover {
+  transform: scale(1.2);
+}
+
+.header {
+  background-color: #4caf50;
+  color: #FFF;
+  padding: 10px;
+  font-size: 40px;
+}
+
+.container {
+  padding: 10px;
+}
+
+#unico {
+  margin: 10px;
+  padding: 1rem;
+  background: slateblue;
+  color: #fff;
+  text-align: center;
+}
