@@ -1,12 +1,150 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SSD</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <h1>Encabezados</h1> <hr>
+  <h1>Este es un h1</h1>
+  <h2>Este es un h2</h2>
+  <h3>Este es un h3</h3>
+  <h4>Este es un h4</h4>
+  <h5>Este es un h5</h5>
+  <h6>Este es un h6</h6>
+
+  <h2>Etiquetas de Texto</h2> <hr>
+  <p>Este es un párrafo</p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, enim? <br/><br/>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita placeat distinctio iusto magnam facilis dolor saepe deserunt exercitationem sapiente deleniti.
+  </p>
+
+  <h2>Atributos</h2>
+  <a href="http://www.upsin.edu.mx/">UPSIN</a> 
   
+  <br/><br/>
+  
+  <a href="http://www.upsin.edu.mx/" target="_blank" rel="noopener noreferrer">UPSIN</a>
+
+  <br/><br/>
+
+  <a href="page.html" target="_blank" rel="noopener noreferrer">A la página 2</a>
+
+  <br/><br/>
+  
+  <img src="img/img1.jpg" alt="bosque" width="100%" draggable="false">
+  <br>
+  <!-- <img src="img/gif1.gif" alt="arte" width="100%"> -->
+
+  <h2>Formatos</h2> <hr>
+  <p>Texto en <b>negritas</b></p>
+  <p>Texto en <strong>Strong</strong></p>
+  <p>Texto en <i>Italica</i></p>
+  <p>Texto en <em>enfásis</em></p>
+  <p>Texto en <small>small</small></p>
+  <p>Texto en <mark>mark</mark></p>
+  <p>Texto en <del>del</del></p>
+  <p>Texto en <ins>ins</ins></p>
+  <p>Texto en <sub>sub</sub></p>
+  <p>Texto en <sup>sup</sup></p>
+
+  <h2>Listas</h2> <hr>
+  <h3>Desordenadas</h3>
+  <ul>
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+  </ul>
+
+  <h3>Ordenadas</h3>
+  <ol>
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+  </ol>
+
+  <h2>Tablas</h2> <hr>
+
+  <table>
+    <tr> <!-- Fila -->
+      <th>Nombre</th> <!-- Encabezado -->
+      <th>Apellido</th>
+      <th>Matricula</th>
+      <th>Carrera</th>
+    </tr>
+    <tr>
+      <td>José</td> <!-- Columnas -->
+      <td>Paredes</td>
+      <td>2018030433</td>
+      <td>Informática</td>
+    </tr>
+    <tr>
+      <td>Enrique</td> <!-- Columnas -->
+      <td>Contreras</td>
+      <td>2018030429</td>
+      <td>Informática</td>
+    </tr><tr>
+      <td>Juan</td> <!-- Columnas -->
+      <td>Franco</td>
+      <td>2018030428</td>
+      <td>Informática</td>
+    </tr><tr>
+      <td>Javier</td> <!-- Columnas -->
+      <td>Melendrez</td>
+      <td>2018030430</td>
+      <td>Informática</td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <table>
+    <tr>
+      <th>Nombre</th>
+      <th colspan="2">Teléfono</th>
+    </tr>
+    <tr>
+      <td>José Paredes</td>
+      <td>6692149616</td>
+      <td>1212121212</td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <table>
+    <tr>
+      <th>Nombre</th>
+      <th rowspan="2">Teléfono</th>
+    </tr>
+    <tr>
+      <td>José Paredes</td>
+      <td>6692149616</td>
+      <td>1212121212</td>
+    </tr>
+  </table>
+
+  <h2>Formularios</h2> <hr>
+  <form>
+    <label>
+      Nombre
+      <input type="text">
+    </label>
+    <br><br>
+    <label for="pass">Contraseña</label>
+    <input type="password" id="pass">
+    <br><br>
+    <button>Enviar</button>
+  </form>
+
+  <h2>Frame</h2> <hr>
+  <iframe src="http://www.upsin.edu.mx" frameborder="0" name="iframe_a" width="100%" height="500px"></iframe>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/n1CfxUCDniQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 </body>
 </html>
