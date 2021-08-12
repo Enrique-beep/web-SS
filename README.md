@@ -14,6 +14,7 @@
 ### 📙 Referencias a HTML 
   * 📌 [w3school](https://www.w3schools.com/html/)
   * 📌 [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML)
+  * 📌 [HTML Reference](https://htmlreference.io/)
   * 📌 [Faztweb](https://www.youtube.com/watch?v=rbuYtrNUxg4)
 
 ### 📘 Referencias a CSS
