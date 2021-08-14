@@ -31,3 +31,7 @@
   * :beginner: [beginners](https://aprendejavascript.org/)
   * :beginner: [Asynchronous](https://www.youtube.com/watch?v=Q3HtXuDEy5s)
   * :beginner: [4tomik](https://www.youtube.com/watch?v=CSWnqdhN5vk)
+
+### :octocat: Referencia a GIT
+  * :black_circle: [Curso de GIT parte 1](https://www.youtube.com/watch?v=gyXldK4vc40)
+  * :black_circle: [Curso de GIT parte 2](https://www.youtube.com/watch?v=QpeVDXTKrWs)
