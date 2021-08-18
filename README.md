@@ -24,6 +24,7 @@
   * :diamond_shape_with_a_dot_inside: [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
   * :diamond_shape_with_a_dot_inside: [Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
   * :b: [Bootstrap](https://getbootstrap.com/)
+  * :b: [Ejemplo Práctico](https://www.youtube.com/watch?v=ZuOL_DoaG9k)
 
 ### 📒 Refenecias a JS
   * :beginner: [w3School](https://www.w3schools.com/js/)
